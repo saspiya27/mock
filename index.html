@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ipreminum india</title>
+	<link rel="stylesheet" type="text/css" href="fontawesome\css\all.css">
+	<style>
+		#main-nav 
+		{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-evenly;
+			background-color: black;
+			position: sticky;
+			top: 0px;
+		}
+		#main-nav a
+		{
+			text-decoration: none;
+			color: white;
+			font-weight: bold;
+		}
+		#main-nav a:hover
+		{
+		color: orange;
+		}
+		#main-nav h3
+		{
+			color: white;
+			display:block;
+		    font-style: italic;
+		}
+
+		section #article1
+		{
+			background-color: rgba(0,0,0,0.9);
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-around;
+		}
+		section #article1 #div1,#div2
+		{
+              color: white;
+           padding-top: 50px;
+
+		}
+		section #article1 h1
+		{
+			font-size: 25px;
+		}
+		#article1 #div1 table tr td
+		{
+			  font-weight: bolder;
+             padding: 5px;
+		}
+		#article1 #div2 table tr td
+		{
+             font-weight: bolder;
+             padding: 5px;
+		}
+		#div2 input[type="text"]
+		{
+			width: 250px;
+			height: 30px;
+			background-color: black;
+			border-radius: 8px;
+		    outline: none;
+		    border: 1px solid grey;
+		    text-align: left;
+		}
+		#div2 input[type="submit"]
+		{
+			border: 2px solid orange;
+			font-style: italic;
+			font-weight: bold;
+			background-color: black;
+			border-radius: 10px;
+			color: white;
+			padding: 5px 20px;
+			margin-top: 10px;
+		}
+				#article2 #div3
+				{
+					text-align: center;
+				}
+		#article2 #div3 h1
+		{
+			font-size: 30px;
+		}
+		#article2 #div3 table
+		{
+			margin:auto;
+		}
+		#article2 img
+		{
+			width: 200px;
+			height: 200px;
+		}
+		#table1 
+		{
+			border-collapse: collapse;
+		}
+		
+		@media (min-width:0px) and (max-width: 650px)
+		{
+			#main-nav
+			{
+				flex-direction:column;
+			}
+			section #article1
+			{
+				flex-direction: column;
+			}
+		}
+        footer
+        {
+        	width: 80%;
+            text-align: center;
+            background-color: orange;
+            color: white;
+            margin: 100px auto;
+            padding: 40px;
+        }
+
+		
+	</style>
+</head>
+<body>
+   <div>
+   	<nav id="main-nav">
+   		<h3><span ><i class="fa fa-apple"></i></span>iPremium<br>INDIA</h3>
+   		<a href="#"><span>HOME</span></a>
+   		<a href="#"><span>ABOUT</span></a>
+   		<a href="#"><span>SERVICE</span></a>
+   		<a href="#"><span>GALLERY</span></a>
+   		<a href="#"><span>REPAIR IT</span></a>
+   		<a href="#"><span>SERVICE STATUS</span></a>
+   		<a href="#"><span>FAQ</span></a>
+   		<a href="#"><span>BLOG</span></a>
+   	</nav>
+   	<section>
+   	<article id="article1">	
+   		<div id="div1">	
+             <h1>We Provide Top Quality Repair</h1>
+             <h1>Services For All Apple Devices</h1>
+             <ul>	
+                <li>Certified Apple Technician</li>
+                <li>Timely</li>
+                <li>Affordable</li>
+                <li>Doorstep Pickup and Delivery</li>
+             </ul>
+             <table>	
+                 <tr>	
+                 	<td>Call us at</td>
+                 	<td>HSR Layout:</td>
+                 	<td style="color: orange">88844171766</td>
+                 </tr>
+                 <tr>
+                 	<td></td>
+                 	<td>Electronic City:</td>
+                 	<td style="	color: orange">08197766654</td>
+                 </tr>
+             </table>
+   		</div>
+
+       <div id="div2">
+           <h1>Let Us Contact You</h1>
+           <form>	
+                   <table>	
+                       <tr>	
+                            <td><input type="text" placeholder="Name"></td>
+
+                       </tr>
+                       <tr>
+                       	<td><input type="text" placeholder="Phone"></td>
+                       </tr>
+                       <tr>
+                       	<td><input type="text" placeholder="Device"></td>
+                       </tr>
+                       <tr>
+                       	<td><input type="SUBMIT" name=""></td>
+                       </tr>
+                   </table>
+           </form>
+       	</div>
+   	</article>
+   	<article id="article2">
+   		<div id="div3">
+   		   	<h1>OUR SERVICES</h1>
+   		   	<h1>iPremium Apple Service Center in Bangalore</h1>
+   		   	<p>iPremium is your trusted Apple service center in Bangalore. We provide top quality range of solution and services for all your Apple devices.</p>
+
+<p>A broken device could be heart-breaking, for most of us. We would like to fix your device to the best of our abilities. More importantly, we want you to be delighted for getting it fixed through iPremium.</p>
+
+<p>Our motto is simple, it is this: Customer Delight!</p>
+
+<p>Our Team is continuously striving to bring the smile back to your face. We do that by providing top quality repair services for your iDevices.</p>
+<p>Following are a list of common problems we can help resolve at our Apple service centers in Bangalore:</p>
+<table id="table1" cellpadding="15px" width="50%" border="1px solid black">	
+      <tr>
+      	<td><img src="images/iphone.jpg"></td>
+      	<td><img src="images/apple lap.jpg"></td>
+      </tr>
+      <tr>
+      	<td>iphone Screen repair or replacement</td>
+      	<td>MacBook screen repair, LCD replacement</td>
+      </tr>
+      <tr>
+      	<td>iphone battery replacement</td>
+      	<td>macbook battery replacement</td>
+      </tr>
+      <tr>
+      	<td>iphone power issues</td>
+      	<td>macbook power issues</td>
+      </tr>
+      <tr>
+      	<td>iphone water damage</td>
+      	<td>macbook power charger issues</td>
+      </tr>
+      <tr>
+      	<td>iphone software issues or upgrade</td>
+      	<td>macBook software issues or upgrade</td>
+      </tr>
+      <tr>
+      	<td>iphone software issues or upgrade</td>
+      	<td>iphone software issues or upgrade</td>
+      </tr>
+      <tr>
+      	<td>iphone motherboard issues </td>
+      	<td>macBook motherboard issues or upgrade</td>
+      </tr></table>
+   	</article>
+	</section>
+   	<footer>
+      	Does Your Phone Need A Repair?
+      	<div>Get in Touch</div>
+      </footer>
+   </div>
+</body>
+</html>
